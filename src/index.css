@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --bg-app: #282828;
+  --on-bg: #D9D9D9;
+  --surface: #2F2F2F;
+  --surface-elevated: #383838;
+  --outline: #4A4A4A;
+  --text-muted: #A8A8A8;
+  --text-faint: #7D7D7D;
+  --btn-fill: #D9D9D9;
+  --btn-text: #282828;
+  --accent: #7FB5A5;
+  --accent-muted: #2E403B;
+  --error: #E57373;
+  --warning: #FFB74D;
+  --success: #81C784;
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--on-bg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar for dark aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #282828;
+}
+::-webkit-scrollbar-thumb {
+  background: #4A4A4A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #606060;
+}
+
+/* OLED micro-display simulator grid */
+.oled-screen {
+  background-color: #0d1210;
+  background-image: 
+    linear-gradient(rgba(127, 181, 165, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(127, 181, 165, 0.04) 1px, transparent 1px);
+  background-size: 4px 4px;
+}

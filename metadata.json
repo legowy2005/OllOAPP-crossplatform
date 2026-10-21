@@ -1,0 +1,6 @@
+{
+  "name": "OllO Smart Glasses Flashcards",
+  "description": "Flashcard manager that syncs decks to smart glasses over Bluetooth Low Energy (BLE) with image dithering and live simulated hardware.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
